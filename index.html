@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>КОМПРОМАТ — кузовной центр</title>
+  <meta name="description" content="Кузовной центр «Компромат»: ремонт бамперов, покраска, рихтовка, сварочные работы, антикоррозийная обработка, детейлинг. Телефон +7 950 295-02-96." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Russo+One&family=Manrope:wght@400;500;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- ══════════ NAV ══════════ -->
+  <header class="nav">
+    <a class="nav__logo" href="#top">КОМПРОМАТ</a>
+    <nav class="nav__links">
+      <a href="#services">Услуги</a>
+      <a href="#build">Сборка</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="nav__phone" href="tel:+79502950296">+7 950 295-02-96</a>
+  </header>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="top">
+    <div class="hero__scanlines" aria-hidden="true"></div>
+    <span class="hero__kana hero__kana--left" aria-hidden="true">コンプロマート</span>
+    <span class="hero__kana hero__kana--right" aria-hidden="true">車体修理センター</span>
+
+    <div class="hero__inner">
+      <p class="hero__pre">車 кузовной центр 車</p>
+      <h1 class="hero__title" data-flicker>КОМПРОМАТ</h1>
+      <div class="hero__divider" aria-hidden="true"></div>
+      <p class="hero__sub">Вернём кузов в идеал — от рихтовки до зеркальной полировки.<br />Быстро. Честно. С характером.</p>
+      <div class="hero__cta">
+        <a class="btn btn--pink" href="tel:+79502950296">Записаться</a>
+        <a class="btn btn--ghost" href="#services">Услуги</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>крути вниз</span>
+      <span class="hero__scroll-arrow">▼</span>
+    </div>
+  </section>
+
+  <!-- ══════════ MARQUEE ══════════ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>東京 • ドリフト • JDM • 街道レーサー • MARK II • TOURER V • 1JZ • КУЗОВНОЙ ЦЕНТР • КОМПРОМАТ •&nbsp;</span><span>東京 • ドリフト • JDM • 街道レーサー • MARK II • TOURER V • 1JZ • КУЗОВНОЙ ЦЕНТР • КОМПРОМАТ •&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ══════════ 3D BUILD ══════════ -->
+  <section class="build" id="build">
+    <div class="build__pin">
+      <canvas class="build__canvas" id="car-canvas"></canvas>
+      <div class="build__hud">
+        <div class="build__phase">
+          <span class="build__phase-kana" id="phase-kana">診断</span>
+          <h2 class="build__phase-title" id="phase-title">Диагностика</h2>
+          <p class="build__phase-text" id="phase-text">Осматриваем геометрию кузова и составляем честную смету.</p>
+        </div>
+        <div class="build__progress" aria-hidden="true">
+          <div class="build__progress-bar" id="build-bar"></div>
+        </div>
+      </div>
+      <span class="build__watermark" aria-hidden="true">MARK II</span>
+    </div>
+  </section>
+
+  <!-- ══════════ SERVICES ══════════ -->
+  <section class="services" id="services">
+    <div class="services__head">
+      <span class="section-kana" aria-hidden="true">サービス</span>
+      <h2 class="section-title">Услуги</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+    </div>
+    <ul class="services__grid">
+      <li class="service-card"><span class="service-card__num">01</span><h3>Ремонт бамперов</h3><p>Трещины, разрывы, крепления — восстановим и покрасим в цвет.</p></li>
+      <li class="service-card"><span class="service-card__num">02</span><h3>Покраска</h3><p>Подбор цвета по коду и споту, покраска элементом и целиком.</p></li>
+      <li class="service-card"><span class="service-card__num">03</span><h3>Рихтовка</h3><p>Выправим вмятины и вернём заводскую геометрию панелей.</p></li>
+      <li class="service-card"><span class="service-card__num">04</span><h3>Сварочные работы</h3><p>Пороги, лонжероны, днище — варим аккуратно и надолго.</p></li>
+      <li class="service-card"><span class="service-card__num">05</span><h3>Антикоррозийная обработка</h3><p>Защитим скрытые полости и днище от рыжиков на годы.</p></li>
+      <li class="service-card"><span class="service-card__num">06</span><h3>Ремонт порогов</h3><p>От локальной заплатки до полной замены с окрасом.</p></li>
+      <li class="service-card"><span class="service-card__num">07</span><h3>Ремонт арок</h3><p>Восстановление арок после коррозии и ДТП.</p></li>
+      <li class="service-card"><span class="service-card__num">08</span><h3>Предпродажная подготовка</h3><p>Машина будет выглядеть так, что жалко продавать.</p></li>
+      <li class="service-card"><span class="service-card__num">09</span><h3>Химчистка</h3><p>Салон как из шоурума: ткань, кожа, пластик, потолок.</p></li>
+      <li class="service-card"><span class="service-card__num">10</span><h3>Полировка</h3><p>Уберём паутинку и голограммы, вернём глубину цвета.</p></li>
+    </ul>
+  </section>
+
+  <!-- ══════════ CONTACTS ══════════ -->
+  <section class="contacts" id="contacts">
+    <span class="section-kana" aria-hidden="true">連絡先</span>
+    <h2 class="section-title">Записаться</h2>
+    <div class="section-divider" aria-hidden="true"></div>
+    <p class="contacts__text">Позвони — скажем честную цену и сроки без «приезжайте, посмотрим».</p>
+    <a class="contacts__phone" href="tel:+79502950296" data-flicker>+7 950 295-02-96</a>
+    <p class="contacts__note">Ежедневно 10:00 — 20:00</p>
+  </section>
+
+  <footer class="footer">
+    <span>© 2026 Кузовной центр «КОМПРОМАТ»</span>
+    <span class="footer__kana" aria-hidden="true">コンプロマート</span>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
