@@ -1,5 +1,25 @@
+<div align="center">
+
+<img src="docs/hero.jpg" alt="КОМПРОМАТ — кузовной центр">
+
 # КОМПРОМАТ — кузовной центр
 
+**Неоновый лендинг в стиле Японии и уличных гонок. Toyota Mark II собирается из деталей прямо по скроллу.**
+
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"> <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"> <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white" alt="GSAP"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+
+</div>
+
+<p align="center"><img src="docs/assembly.gif" alt="Сборка Mark II по скроллу" width="720"><br><sub>Сборка машины по скроллу: диагностика → рихтовка → покраска → готово</sub></p>
+
+<table>
+<tr>
+<td align="center" valign="top"><img src="docs/services.jpg" alt="Услуги"></td>
+<td align="center" valign="top"><img src="docs/mobile.jpg" alt="Мобильная версия" width="220"></td>
+</tr>
+</table>
+
+<!-- header:end -->
 Сайт-лендинг в стиле неон / Япония / уличные гонки. Фишка — 3D-сборка Toyota Mark II (JZX100), управляемая скроллом.
 
 ## Стек
